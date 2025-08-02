@@ -58,8 +58,10 @@ const queries = [
 module.exports = {
   resolve: `gatsby-plugin-algolia`,
   options: {
-    appId: 'QFZW4KBIT0',
-    apiKey: process.env.ALGOLIA_API_KEY,
+    // appId: 'QFZW4KBIT0',
+    // apiKey: process.env.ALGOLIA_API_KEY,
+    appId: 'UW122S6Q4B',
+    apiKey: '7d9d0829e72246787129b656ac23638f',
     indexName,
     queries,
     chunkSize: 10000, // default: 1000
