@@ -45,8 +45,3 @@ The search logic is as follows:
 | query:term      | find queries containing 'term' in the query text |
 | term1 query:term2 | find queries containing 'term' in the query name/description and 'term2' in the query text |
 | query:"exact phrase" | find queries containing the exact phrase in the query text |
-
-
-
-
-
